@@ -27,5 +27,6 @@ namespace EfDbfMvcProject.Models
     
         public virtual DbSet<sysdiagram> sysdiagrams { get; set; }
         public virtual DbSet<CompanyUser> CompanyUsers { get; set; }
+
     }
 }
